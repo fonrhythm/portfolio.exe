@@ -5,6 +5,7 @@ import { FolderView } from "./FolderView";
 import { HomeStack } from "./HomeStack";
 import { LangProvider } from "@/lib/i18n";
 import { NavContext } from "@/lib/nav";
+import { sitePath } from "@/lib/paths";
 import type { FolderId, L, SiteData } from "@/lib/types";
 
 const norm = (p: string) => (p.endsWith("/") ? p : p + "/");
@@ -18,8 +19,9 @@ export function Shell({ data }: { data: SiteData }) {
 
   // 每页独立 URL；返回键由浏览器历史处理
   const go = useCallback((path: string) => {
-    if (norm(window.location.pathname) === path) return;
-    window.history.pushState(null, "", path);
+    const target = sitePath(path);
+    if (norm(window.location.pathname) === target) return;
+    window.history.pushState(null, "", target);
   }, []);
 
   const ui = useCallback((k: string): L => data.site.ui[k] ?? { zh: k, en: k }, [data]);

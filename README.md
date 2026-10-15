@@ -32,4 +32,11 @@ npm run check        # 只检查内容
 - 字体：Playfair Display（大标题/数字）、Roboto Light（宽字距大写）、Cormorant Garamond（小衬线），中文为思源黑体 Light/Medium + 思源宋体 Regular/Bold，均按 unicode-range 分片按需下载。
 - 语言：默认中文，`?lang=en` 直达英文，选择存 localStorage（try/catch）。
 - 英文为机翻，需校对（尤其「博兰斯勒」「欧米勒」等专名的英文写法）。
-- 部署到子路径时需调整 `/paper-noise.png`、`/img/*` 引用或设置 basePath；OG 分享域名用环境变量 `NEXT_PUBLIC_SITE_URL`。
+- 子路径部署使用环境变量 `NEXT_PUBLIC_BASE_PATH`，例如 `/exiitune.exe`；OG 分享域名用 `NEXT_PUBLIC_SITE_URL`。
+
+## GitHub Pages
+
+推送到 `main` 后，GitHub Actions 自动构建并部署。仓库 Settings → Pages 的 Source 设置为 GitHub Actions。
+访问地址：https://fonrhythm.github.io/exiitune.exe/
+
+目前使用 `build:draft` 发布，保留内容中的「待补位」；内容补齐后可将工作流切换为 `npm run build`。

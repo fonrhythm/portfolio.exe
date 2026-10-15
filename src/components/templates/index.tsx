@@ -2,6 +2,7 @@
 import { Attachment, Card, LinkCard, PageHead, PhotoTape, Stamp, Todo, Tx, heroOf } from "../ui";
 import { isTodo, useLang } from "@/lib/i18n";
 import { useNav } from "@/lib/nav";
+import { sitePath } from "@/lib/paths";
 import type { L, Screen } from "@/lib/types";
 
 type P = { screen: Screen; priority?: boolean };
@@ -189,7 +190,7 @@ export function IndexPage({ screen: s }: P) {
       <ol className="list-none m-0 p-0 border-t border-ink">
         {groups.map((g, i) => (
           <li key={g.first.entryId} className="border-b border-ink/30">
-            <a href={g.first.path} onClick={(e) => { e.preventDefault(); go(g.first.path); }} className="flex items-baseline gap-4 min-h-[56px] py-4 text-ink no-underline">
+            <a href={sitePath(g.first.path)} onClick={(e) => { e.preventDefault(); go(g.first.path); }} className="flex items-baseline gap-4 min-h-[56px] py-4 text-ink no-underline">
               <span className="f-didone text-[18px] w-7" style={{ color: "var(--tone)" }}>{String(i + 1).padStart(2, "0")}</span>
               <span className="f-serif text-[19px] leading-snug flex-1"><Tx v={g.first.entryTitle ?? g.first.data.title} /></span>
               <span className="f-cap text-[12px] text-ink-soft whitespace-nowrap">{g.count > 1 ? `${g.count} ${lang === "zh" ? "页" : "pp"}` : "→"}</span>

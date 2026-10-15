@@ -4,6 +4,7 @@ import { createPortal } from "react-dom";
 import manifest from "@/generated/images.json";
 import { isTodo, pick, useLang } from "@/lib/i18n";
 import { useNav } from "@/lib/nav";
+import { sitePath } from "@/lib/paths";
 import type { ImageRef, L, LinkRef, Metric, Screen } from "@/lib/types";
 
 type Manifest = Record<string, { w: number; h: number; blur: string }>;
@@ -111,7 +112,7 @@ export function Img({ img, sizes = "(min-width:1024px) 560px, 92vw", priority = 
   const { lang } = useLang();
   const info = M[img.src];
   if (!info) return <Todo label={lang === "zh" ? "照片待补位" : "Photo TBD"} className={`${fill ? "h-full" : "aspect-[4/3]"} w-full ${className}`} />;
-  const base = `/img/${img.src.replace(/\.\w+$/, "")}`;
+  const base = sitePath(`/img/${img.src.replace(/\.\w+$/, "")}`);
   const set = (ext: string) => [480, 828, 1200].map((w) => `${base}-${w}.${ext} ${w}w`).join(", ");
   return (
     <div className={`overflow-hidden ${fill ? "h-full w-full" : ""} ${className}`} style={{ aspectRatio: fill ? undefined : `${info.w} / ${info.h}`, backgroundImage: `url(${info.blur})`, backgroundSize: "cover" }}>
@@ -174,7 +175,7 @@ function Lightbox({ img, onClose, closeLabel, hint }: { img: ImageRef; onClose: 
   }, [onClose]);
 
   const info = M[img.src];
-  const base = `/img/${img.src.replace(/\.\w+$/, "")}`;
+  const base = sitePath(`/img/${img.src.replace(/\.\w+$/, "")}`);
 
   function down(e: React.PointerEvent) {
     (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
