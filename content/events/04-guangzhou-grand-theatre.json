@@ -1,0 +1,102 @@
+{
+  "id": "guangzhou-grand-theatre",
+  "folder": "events",
+  "order": 4,
+  "template": "profile",
+  "status": "partial",
+  "pages": [
+    {
+      "template": "profile",
+      "status": "partial",
+      "title": {
+        "zh": "广州大剧院系列演出",
+        "en": "Guangzhou Opera House Performances"
+      },
+      "role": {
+        "zh": "现场执行与合作单位对接",
+        "en": "On-site execution & partner liaison"
+      },
+      "period": "待补位",
+      "metrics": [
+        {
+          "value": "待补位",
+          "label": {
+            "zh": "场次",
+            "en": "Shows"
+          }
+        },
+        {
+          "value": "待补位",
+          "label": {
+            "zh": "观众人数",
+            "en": "Audience"
+          }
+        }
+      ],
+      "bullets": [
+        {
+          "zh": "对接合作单位，协调钢琴运输、场地交接、布场与撤场",
+          "en": "Liaised with partners; coordinated piano transport, venue handover, load-in and load-out"
+        },
+        {
+          "zh": "演出现场控台协调、流程推进、信息传达",
+          "en": "Control-desk coordination, run-of-show and information relay during performances"
+        }
+      ]
+    },
+    {
+      "template": "photowall",
+      "status": "todo",
+      "title": {
+        "zh": "现场照片",
+        "en": "Photos"
+      },
+      "images": [
+        {
+          "src": "events/guangzhou-grand-theatre/01.jpg",
+          "alt": {
+            "zh": "广州大剧院演出现场（1）",
+            "en": "Guangzhou Opera House performance (1)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "events/guangzhou-grand-theatre/02.jpg",
+          "alt": {
+            "zh": "广州大剧院演出现场（2）",
+            "en": "Guangzhou Opera House performance (2)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "events/guangzhou-grand-theatre/03.jpg",
+          "alt": {
+            "zh": "广州大剧院演出现场（3）",
+            "en": "Guangzhou Opera House performance (3)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "events/guangzhou-grand-theatre/04.jpg",
+          "alt": {
+            "zh": "广州大剧院演出现场（4）",
+            "en": "Guangzhou Opera House performance (4)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        }
+      ]
+    }
+  ]
+}

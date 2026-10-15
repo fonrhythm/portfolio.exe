@@ -1,0 +1,113 @@
+{
+  "id": "social-overview",
+  "folder": "social",
+  "order": 1,
+  "template": "stats",
+  "status": "partial",
+  "title": {
+    "zh": "数据总览",
+    "en": "Data overview"
+  },
+  "subtitle": {
+    "zh": "小红书 · 公众号 · 社群",
+    "en": "Xiaohongshu · WeChat · Community"
+  },
+  "sections": [
+    {
+      "heading": {
+        "zh": "小红书",
+        "en": "Xiaohongshu"
+      },
+      "metrics": [
+        {
+          "value": "4.8w+",
+          "label": {
+            "zh": "笔记总赞评",
+            "en": "Total likes & comments"
+          }
+        },
+        {
+          "value": "3 / 12",
+          "label": {
+            "zh": "浏览 10w+ / 1w+ 的笔记（篇）",
+            "en": "Notes with 100k+ / 10k+ views"
+          }
+        },
+        {
+          "value": "1",
+          "label": {
+            "zh": "赞藏 5000+ 的笔记（篇）",
+            "en": "Notes with 5,000+ likes+saves"
+          },
+          "note": {
+            "zh": "口径待统一：赞藏合计 或 点赞",
+            "en": "Definition to unify: likes+saves, or likes only"
+          }
+        }
+      ]
+    },
+    {
+      "heading": {
+        "zh": "公众号",
+        "en": "WeChat Official Account"
+      },
+      "metrics": [
+        {
+          "value": "100+ / 20+",
+          "label": {
+            "zh": "累计推文 / 视频",
+            "en": "Posts / videos"
+          }
+        },
+        {
+          "value": "30%",
+          "label": {
+            "zh": "曝光量增长",
+            "en": "Exposure growth"
+          },
+          "note": {
+            "zh": "口径待补位：缺对比周期",
+            "en": "Definition TBD: comparison period missing"
+          }
+        }
+      ]
+    },
+    {
+      "heading": {
+        "zh": "社群",
+        "en": "Community"
+      },
+      "metrics": [
+        {
+          "value": "5 / 2000+",
+          "label": {
+            "zh": "核心粉丝社群 / 总人数",
+            "en": "Core fan groups / total members"
+          }
+        },
+        {
+          "value": "55%",
+          "label": {
+            "zh": "社群活跃度提升",
+            "en": "Activity increase"
+          },
+          "note": {
+            "zh": "口径待补位",
+            "en": "Definition TBD"
+          }
+        },
+        {
+          "value": "12%",
+          "label": {
+            "zh": "活动转化率",
+            "en": "Event conversion rate"
+          },
+          "note": {
+            "zh": "口径待补位",
+            "en": "Definition TBD"
+          }
+        }
+      ]
+    }
+  ]
+}

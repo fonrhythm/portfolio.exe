@@ -1,0 +1,323 @@
+{
+  "id": "weng-huihui",
+  "folder": "events",
+  "order": 2,
+  "template": "profile",
+  "status": "partial",
+  "featured": true,
+  "pages": [
+    {
+      "template": "profile",
+      "status": "partial",
+      "title": {
+        "zh": "艺术回响 琴蕴中西",
+        "en": "Echoes of Art: Piano Between East and West"
+      },
+      "subtitle": {
+        "zh": "翁惠慧 广州系列活动",
+        "en": "Weng Huihui · Guangzhou Series"
+      },
+      "period": "2023.12",
+      "role": {
+        "zh": "项目负责人（执行）",
+        "en": "Project lead (execution)"
+      },
+      "summary": {
+        "zh": "艺术家广州系列活动，涵盖音乐会、大师班、校园活动、媒体采访。",
+        "en": "A Guangzhou series for the artist: concert, masterclass, campus events and press interviews."
+      },
+      "metrics": [
+        {
+          "value": "待补位",
+          "label": {
+            "zh": "场次",
+            "en": "Events"
+          }
+        },
+        {
+          "value": "待补位",
+          "label": {
+            "zh": "观众或学生人数",
+            "en": "Audience / students"
+          }
+        },
+        {
+          "value": "待补位",
+          "label": {
+            "zh": "合作场地数",
+            "en": "Venues"
+          }
+        },
+        {
+          "value": "待补位",
+          "label": {
+            "zh": "参与团队人数",
+            "en": "Team size"
+          }
+        }
+      ],
+      "bullets": [
+        {
+          "zh": "整体执行统筹",
+          "en": "Overall execution lead"
+        },
+        {
+          "zh": "前期筹备、演出报批、流程协调、现场执行",
+          "en": "Preparation, performance approvals, run-of-show coordination, on-site delivery"
+        },
+        {
+          "zh": "对接艺术家、场地及合作团队，统筹日程与现场协调",
+          "en": "Liaised with the artist, venues and partner teams; coordinated schedule and on-site flow"
+        },
+        {
+          "zh": "后期资料整理与项目复盘",
+          "en": "Post-event archiving and project review"
+        }
+      ]
+    },
+    {
+      "template": "timeline",
+      "status": "partial",
+      "title": {
+        "zh": "执行流程",
+        "en": "Execution flow"
+      },
+      "subtitle": {
+        "zh": "从筹备到复盘",
+        "en": "From preparation to review"
+      },
+      "steps": [
+        {
+          "title": {
+            "zh": "前期筹备",
+            "en": "Preparation"
+          },
+          "text": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "title": {
+            "zh": "演出报批",
+            "en": "Approvals"
+          },
+          "text": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "title": {
+            "zh": "流程协调",
+            "en": "Coordination"
+          },
+          "text": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "title": {
+            "zh": "现场执行",
+            "en": "On-site delivery"
+          },
+          "text": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "title": {
+            "zh": "后期整理与复盘",
+            "en": "Archiving & review"
+          },
+          "text": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        }
+      ]
+    },
+    {
+      "template": "photowall",
+      "status": "todo",
+      "title": {
+        "zh": "现场照片墙",
+        "en": "Photo wall"
+      },
+      "subtitle": {
+        "zh": "6–10 张现场照片",
+        "en": "6–10 on-site photos"
+      },
+      "images": [
+        {
+          "src": "events/weng-huihui/01.jpg",
+          "alt": {
+            "zh": "翁惠慧活动现场（1）",
+            "en": "Weng Huihui event on site (1)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "events/weng-huihui/02.jpg",
+          "alt": {
+            "zh": "翁惠慧活动现场（2）",
+            "en": "Weng Huihui event on site (2)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "events/weng-huihui/03.jpg",
+          "alt": {
+            "zh": "翁惠慧活动现场（3）",
+            "en": "Weng Huihui event on site (3)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "events/weng-huihui/04.jpg",
+          "alt": {
+            "zh": "翁惠慧活动现场（4）",
+            "en": "Weng Huihui event on site (4)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "events/weng-huihui/05.jpg",
+          "alt": {
+            "zh": "翁惠慧活动现场（5）",
+            "en": "Weng Huihui event on site (5)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "events/weng-huihui/06.jpg",
+          "alt": {
+            "zh": "翁惠慧活动现场（6）",
+            "en": "Weng Huihui event on site (6)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        }
+      ]
+    },
+    {
+      "template": "attachment",
+      "status": "todo",
+      "title": {
+        "zh": "策划文件",
+        "en": "Planning documents"
+      },
+      "subtitle": {
+        "zh": "已打码客户名与预算",
+        "en": "Client names and budget redacted"
+      },
+      "attachments": [
+        {
+          "src": "events/weng-huihui-docs/01.jpg",
+          "alt": {
+            "zh": "策划文件 第1页",
+            "en": "Planning document, page 1"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "events/weng-huihui-docs/02.jpg",
+          "alt": {
+            "zh": "策划文件 第2页",
+            "en": "Planning document, page 2"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "events/weng-huihui-docs/03.jpg",
+          "alt": {
+            "zh": "策划文件 第3页",
+            "en": "Planning document, page 3"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        }
+      ]
+    },
+    {
+      "template": "case-study",
+      "status": "todo",
+      "title": {
+        "zh": "复盘",
+        "en": "Review"
+      },
+      "subtitle": {
+        "zh": "第一人称",
+        "en": "In my own words"
+      },
+      "sections": [
+        {
+          "key": "doneWell",
+          "heading": {
+            "zh": "做得好的",
+            "en": "What worked"
+          },
+          "items": [
+            {
+              "zh": "待补位",
+              "en": "TBD"
+            }
+          ]
+        },
+        {
+          "key": "problems",
+          "heading": {
+            "zh": "遇到的问题",
+            "en": "Problems"
+          },
+          "items": [
+            {
+              "zh": "待补位",
+              "en": "TBD"
+            }
+          ]
+        },
+        {
+          "key": "nextTime",
+          "heading": {
+            "zh": "下次怎么改",
+            "en": "Next time"
+          },
+          "items": [
+            {
+              "zh": "待补位",
+              "en": "TBD"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

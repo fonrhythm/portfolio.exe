@@ -1,0 +1,45 @@
+{
+  "id": "other-collaborations",
+  "folder": "events",
+  "order": 5,
+  "template": "profile",
+  "status": "partial",
+  "title": {
+    "zh": "其他合作",
+    "en": "Other collaborations"
+  },
+  "subtitle": {
+    "zh": "跨年快闪 · 歌剧演出 · 音乐节",
+    "en": "New Year's Eve flash event · Opera · Music festival"
+  },
+  "bullets": [
+    {
+      "zh": "跨年快闪：待补位",
+      "en": "New Year's Eve flash event: TBD"
+    },
+    {
+      "zh": "歌剧演出：待补位",
+      "en": "Opera performance: TBD"
+    },
+    {
+      "zh": "音乐节：待补位",
+      "en": "Music festival: TBD"
+    }
+  ],
+  "metrics": [
+    {
+      "value": "待补位",
+      "label": {
+        "zh": "合作场次",
+        "en": "Collaborations"
+      }
+    },
+    {
+      "value": "待补位",
+      "label": {
+        "zh": "合作单位数",
+        "en": "Partners"
+      }
+    }
+  ]
+}

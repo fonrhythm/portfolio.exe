@@ -1,0 +1,47 @@
+{
+  "id": "media-workflow",
+  "folder": "social",
+  "order": 5,
+  "template": "timeline",
+  "status": "partial",
+  "title": {
+    "zh": "媒体素材管理流程",
+    "en": "Media asset workflow"
+  },
+  "subtitle": {
+    "zh": "图片筛选 → 视频初审 → 采访协调",
+    "en": "Photo selection → video review → interview coordination"
+  },
+  "steps": [
+    {
+      "title": {
+        "zh": "图片筛选",
+        "en": "Photo selection"
+      },
+      "text": {
+        "zh": "总决赛协调摄影摄像团队，筛选图片。细节待补位。",
+        "en": "Coordinated photo and video crews at the finals and selected photos. Details TBD."
+      }
+    },
+    {
+      "title": {
+        "zh": "视频初审",
+        "en": "Video first review"
+      },
+      "text": {
+        "zh": "对视频素材做初审。细节待补位。",
+        "en": "First-pass review of video material. Details TBD."
+      }
+    },
+    {
+      "title": {
+        "zh": "采访协调",
+        "en": "Interview coordination"
+      },
+      "text": {
+        "zh": "对接主持人及采访团队。细节待补位。",
+        "en": "Liaised with the host and interview teams. Details TBD."
+      }
+    }
+  ]
+}

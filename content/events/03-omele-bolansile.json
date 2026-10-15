@@ -1,0 +1,118 @@
+{
+  "id": "omele-bolansile",
+  "folder": "events",
+  "order": 3,
+  "template": "profile",
+  "status": "partial",
+  "pages": [
+    {
+      "template": "profile",
+      "status": "partial",
+      "title": {
+        "zh": "博兰斯勒国际音乐节暨第八届欧米勒（青岛）国际钢琴公开赛",
+        "en": "Bolansile International Music Festival & 8th Omeler (Qingdao) International Piano Open"
+      },
+      "role": {
+        "zh": "组委会媒体宣传组 · 宣传执行统筹",
+        "en": "Organizing committee, media & publicity team · publicity execution lead"
+      },
+      "period": "待补位",
+      "metrics": [
+        {
+          "value": "待补位",
+          "label": {
+            "zh": "规模数字",
+            "en": "Scale"
+          }
+        },
+        {
+          "value": "待补位",
+          "label": {
+            "zh": "媒体报道数",
+            "en": "Press pieces"
+          }
+        }
+      ],
+      "bullets": [
+        {
+          "zh": "负责广深赛区宣传内容及总决赛宣传执行",
+          "en": "Handled publicity content for the Guangzhou and Shenzhen rounds and publicity execution for the finals"
+        },
+        {
+          "zh": "制定分赛区宣传模板",
+          "en": "Built publicity templates for each regional round"
+        },
+        {
+          "zh": "制作新闻稿、公众号推文、赛事快讯、活动回顾",
+          "en": "Produced press releases, WeChat posts, event flashes and recaps"
+        },
+        {
+          "zh": "总决赛协调摄影摄像团队、图片筛选、视频初审",
+          "en": "At the finals: coordinated photo/video crews, selected photos, did first-pass video review"
+        },
+        {
+          "zh": "对接主持人及采访团队",
+          "en": "Liaised with the host and interview teams"
+        },
+        {
+          "zh": "现场在控台配合导演组推进赛事流程",
+          "en": "At the control desk, supported the directing team in running the show"
+        }
+      ]
+    },
+    {
+      "template": "photowall",
+      "status": "todo",
+      "title": {
+        "zh": "现场照片",
+        "en": "Photos"
+      },
+      "images": [
+        {
+          "src": "events/omele-bolansile/01.jpg",
+          "alt": {
+            "zh": "欧米勒赛事现场（1）",
+            "en": "Omeler competition on site (1)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "events/omele-bolansile/02.jpg",
+          "alt": {
+            "zh": "欧米勒赛事现场（2）",
+            "en": "Omeler competition on site (2)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "events/omele-bolansile/03.jpg",
+          "alt": {
+            "zh": "欧米勒赛事现场（3）",
+            "en": "Omeler competition on site (3)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "events/omele-bolansile/04.jpg",
+          "alt": {
+            "zh": "欧米勒赛事现场（4）",
+            "en": "Omeler competition on site (4)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        }
+      ]
+    }
+  ]
+}

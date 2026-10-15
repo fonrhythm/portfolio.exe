@@ -1,0 +1,43 @@
+{
+  "id": "contact",
+  "folder": "others",
+  "order": 4,
+  "template": "contact",
+  "status": "todo",
+  "title": {
+    "zh": "联系方式",
+    "en": "Contact"
+  },
+  "facts": [
+    {
+      "label": {
+        "zh": "邮箱",
+        "en": "Email"
+      },
+      "value": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    },
+    {
+      "label": {
+        "zh": "微信",
+        "en": "WeChat"
+      },
+      "value": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    },
+    {
+      "label": {
+        "zh": "电话",
+        "en": "Phone"
+      },
+      "value": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    }
+  ]
+}

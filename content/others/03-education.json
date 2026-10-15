@@ -1,0 +1,17 @@
+{
+  "id": "education",
+  "folder": "others",
+  "order": 3,
+  "template": "profile",
+  "status": "todo",
+  "title": {
+    "zh": "教育背景 / 证书",
+    "en": "Education & certificates"
+  },
+  "bullets": [
+    {
+      "zh": "待补位",
+      "en": "TBD"
+    }
+  ]
+}

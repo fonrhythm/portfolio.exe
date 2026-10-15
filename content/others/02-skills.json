@@ -1,0 +1,17 @@
+{
+  "id": "skills",
+  "folder": "others",
+  "order": 2,
+  "template": "profile",
+  "status": "todo",
+  "title": {
+    "zh": "技能与工具",
+    "en": "Skills & tools"
+  },
+  "bullets": [
+    {
+      "zh": "待补位",
+      "en": "TBD"
+    }
+  ]
+}

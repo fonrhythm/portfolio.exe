@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --night: #0B0B0C;
+  --paper: #E8E6E0;
+  --paper-light: #F2F0EA;
+  --ink: #151515;
+  --ink-soft: #55534E;
+  --cover: #1D3C97;
+  --blue: #1B5FD8;
+  --blue-soft: #5A92F2;
+  /* 四个标签的基调色（取自参考图的文件夹色） */
+  --events: #C3281D;
+  --social: #1E6B47;
+  --projects: #77756F;
+  --others: #2D5FC4;
+  --events-d: #A62219; --social-d: #1A5B3C; --projects-d: #65645F; --others-d: #2651A7;
+  --stamp: #B23A24;           /* 纸面上的「待补位」标记 */
+  --tone: var(--cover);
+  --step: clamp(38px, 5.2dvh, 52px);
+}
+
+html, body { height: 100%; }
+body {
+  margin: 0; background: var(--night); color: var(--ink);
+  font-family: "Cormorant Garamond", "Noto Serif SC", Georgia, serif;
+  font-size: 16px; line-height: 1.75;
+  -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent;
+  overflow: hidden; overscroll-behavior: none;
+}
+*:focus-visible { outline: 2px solid var(--blue-soft); outline-offset: 2px; }
+[data-page-title]:focus { outline: none; }
+[data-page-title]:focus-visible { outline: 2px solid var(--stamp); outline-offset: 4px; }
+
+/* 颗粒：静态平铺图，不用 blend-mode / filter */
+@layer components {
+  .paper-grain { position: relative; isolation: isolate; }
+  .paper-grain::before {
+    content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+    background: url("/paper-noise.png") repeat; background-size: 256px 256px; opacity: 0.07;
+  }
+  .grain-soft::before { opacity: 0.09; }
+}
+
+/* 字体角色 —— 细、宽字距、大写的无衬线；小号衬线；高反差衬线大字 */
+.f-cap { font-family: Roboto, "Noto Sans SC", sans-serif; font-weight: 300; text-transform: uppercase; letter-spacing: 0.2em; }
+html[lang="zh-CN"] .f-cap { letter-spacing: 0.14em; }
+.f-capb { font-weight: 500; }
+.f-sans-b { font-family: Roboto, "Noto Sans SC", sans-serif; font-weight: 700; }
+.f-serif { font-family: "Cormorant Garamond", "Noto Serif SC", Georgia, serif; font-weight: 500; }
+.f-didone { font-family: "Playfair Display", "Noto Serif SC", serif; font-weight: 500; }
+.t-body { font-family: "Cormorant Garamond", "Noto Serif SC", Georgia, serif; font-weight: 500; font-size: 18px; line-height: 1.6; }
+html[lang="zh-CN"] .t-body { font-weight: 400; font-size: 15.5px; line-height: 1.95; }
+.t-tag { font-size: 12px; line-height: 1.5; }
+
+/* 文件夹标签：梯形顶部 */
+.tab-shape { clip-path: polygon(0 100%, 5% 12%, 8% 0, 92% 0, 95% 12%, 100% 100%); }
+
+/* 待补位占位 */
+.todo-mark {
+  display: inline-block; border: 1px dashed var(--stamp); color: var(--stamp);
+  font-family: Roboto, "Noto Sans SC", sans-serif; font-weight: 400; font-size: 12px; line-height: 1.5;
+  padding: 0 6px; letter-spacing: 0.1em; text-transform: none; border-radius: 2px;
+}
+.todo-mark.on-dark { border-color: var(--paper-light); color: var(--paper-light); }
+.todo-box { border: 1px dashed var(--stamp); color: var(--stamp); border-radius: 2px; }
+
+.ruled { background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 31px, rgba(21,21,21,0.18) 31px, rgba(21,21,21,0.18) 32px); }
+
+.safe-top { padding-top: env(safe-area-inset-top, 0px); }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom, 0px); }
+
+@keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+.fade-in { animation: fadein 220ms ease-out both; }
+@media (prefers-reduced-motion: reduce) { .fade-in { animation-duration: 150ms; } * { scroll-behavior: auto !important; } }
+
+.pane-scroll { touch-action: pan-y; overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+.pane-scroll::-webkit-scrollbar { display: none; }
+.skip-link { position: absolute; left: -999px; top: 0; z-index: 100; background: var(--paper-light); color: var(--ink); padding: 8px 12px; }
+.skip-link:focus { left: 8px; top: 8px; }
+
+/* 封面小字两侧的斜线（参考图） */
+.slash { position: relative; display: inline-block; }
+.slash::after { content: ""; position: absolute; height: 1.55em; border-left: 1px solid currentColor; transform: rotate(32deg); }
+.slash-r::after { right: -0.95em; top: 0.1em; }
+.slash-l::after { left: -0.95em; top: 0.25em; }

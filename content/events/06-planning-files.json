@@ -1,0 +1,61 @@
+{
+  "id": "planning-files",
+  "folder": "events",
+  "order": 6,
+  "template": "attachment",
+  "status": "todo",
+  "title": {
+    "zh": "策划文件",
+    "en": "Planning files"
+  },
+  "subtitle": {
+    "zh": "打码后的策划文件节选",
+    "en": "Redacted excerpts"
+  },
+  "attachments": [
+    {
+      "src": "events/planning-files/01.jpg",
+      "alt": {
+        "zh": "策划文件 第1页",
+        "en": "Planning file, page 1"
+      },
+      "caption": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    },
+    {
+      "src": "events/planning-files/02.jpg",
+      "alt": {
+        "zh": "策划文件 第2页",
+        "en": "Planning file, page 2"
+      },
+      "caption": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    },
+    {
+      "src": "events/planning-files/03.jpg",
+      "alt": {
+        "zh": "策划文件 第3页",
+        "en": "Planning file, page 3"
+      },
+      "caption": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    },
+    {
+      "src": "events/planning-files/04.jpg",
+      "alt": {
+        "zh": "策划文件 第4页",
+        "en": "Planning file, page 4"
+      },
+      "caption": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    }
+  ]
+}

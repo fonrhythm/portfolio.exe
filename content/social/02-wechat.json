@@ -1,0 +1,105 @@
+{
+  "id": "wechat",
+  "folder": "social",
+  "order": 2,
+  "template": "links",
+  "status": "todo",
+  "title": {
+    "zh": "公众号文案",
+    "en": "WeChat articles"
+  },
+  "subtitle": {
+    "zh": "6 篇代表作：品牌内容 3 + 赛事报道 3",
+    "en": "6 picks: 3 brand + 3 event reports"
+  },
+  "sections": [
+    {
+      "heading": {
+        "zh": "品牌内容",
+        "en": "Brand content"
+      },
+      "links": [
+        {
+          "url": "",
+          "platform": "wechat",
+          "label": {
+            "zh": "上海乐器展",
+            "en": "Shanghai Music Fair"
+          },
+          "summary": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "url": "",
+          "platform": "wechat",
+          "label": {
+            "zh": "世界钢琴日",
+            "en": "World Piano Day"
+          },
+          "summary": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "url": "",
+          "platform": "wechat",
+          "label": {
+            "zh": "年度总结",
+            "en": "Year in review"
+          },
+          "summary": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        }
+      ]
+    },
+    {
+      "heading": {
+        "zh": "赛事报道",
+        "en": "Event reports"
+      },
+      "links": [
+        {
+          "url": "",
+          "platform": "wechat",
+          "label": {
+            "zh": "大师班",
+            "en": "Masterclass"
+          },
+          "summary": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "url": "",
+          "platform": "wechat",
+          "label": {
+            "zh": "决赛",
+            "en": "Finals"
+          },
+          "summary": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "url": "",
+          "platform": "wechat",
+          "label": {
+            "zh": "总决赛一览",
+            "en": "Grand finals overview"
+          },
+          "summary": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        }
+      ]
+    }
+  ]
+}

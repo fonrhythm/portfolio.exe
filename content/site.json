@@ -1,0 +1,185 @@
+{
+  "name": {
+    "zh": "待补位",
+    "en": "TBD"
+  },
+  "tagline": {
+    "zh": "待补位",
+    "en": "TBD"
+  },
+  "folders": [
+    {
+      "id": "events",
+      "order": 1,
+      "label": {
+        "zh": "活动执行",
+        "en": "Events"
+      },
+      "tint": "events",
+      "onColor": "paper",
+      "blurb": {
+        "zh": "现场统筹与项目执行",
+        "en": "On-site coordination & project delivery"
+      }
+    },
+    {
+      "id": "social",
+      "order": 2,
+      "label": {
+        "zh": "新媒体运营",
+        "en": "Social media"
+      },
+      "tint": "social",
+      "onColor": "paper",
+      "blurb": {
+        "zh": "内容、数据与社群",
+        "en": "Content, data & community"
+      }
+    },
+    {
+      "id": "projects",
+      "order": 3,
+      "label": {
+        "zh": "项目经历",
+        "en": "Projects"
+      },
+      "tint": "projects",
+      "onColor": "paper",
+      "blurb": {
+        "zh": "独立搭建与前期执行",
+        "en": "Self-built & pre-event execution"
+      }
+    },
+    {
+      "id": "others",
+      "order": 4,
+      "label": {
+        "zh": "其他",
+        "en": "Others"
+      },
+      "tint": "others",
+      "onColor": "paper",
+      "blurb": {
+        "zh": "经历、技能与联系",
+        "en": "Experience, skills & contact"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "value": "4.8w+",
+      "label": {
+        "zh": "小红书 赞评",
+        "en": "XHS likes"
+      }
+    },
+    {
+      "value": "100+",
+      "label": {
+        "zh": "公众号 推文",
+        "en": "WeChat posts"
+      }
+    },
+    {
+      "value": "2000+",
+      "label": {
+        "zh": "社群 人数",
+        "en": "Community"
+      }
+    },
+    {
+      "value": "~200",
+      "label": {
+        "zh": "Chob 日均访问",
+        "en": "Chob visits/day"
+      },
+      "note": {
+        "zh": "2026.06 起统计",
+        "en": "since 2026.06"
+      }
+    }
+  ],
+  "ui": {
+    "archive": {
+      "zh": "归档",
+      "en": "Archive"
+    },
+    "prev": {
+      "zh": "上一页",
+      "en": "Prev"
+    },
+    "next": {
+      "zh": "下一页",
+      "en": "Next"
+    },
+    "open": {
+      "zh": "打开",
+      "en": "Open"
+    },
+    "readOrigin": {
+      "zh": "阅读原文 →",
+      "en": "Read original →"
+    },
+    "redirectWechat": {
+      "zh": "将跳转至微信",
+      "en": "Opens in WeChat"
+    },
+    "redirectXhs": {
+      "zh": "将跳转至小红书",
+      "en": "Opens in Xiaohongshu"
+    },
+    "redirectWeb": {
+      "zh": "将跳转至外部网站",
+      "en": "Opens an external site"
+    },
+    "pageOf": {
+      "zh": "页",
+      "en": "Page"
+    },
+    "contents": {
+      "zh": "目录",
+      "en": "Contents"
+    },
+    "doneWell": {
+      "zh": "做得好的",
+      "en": "What worked"
+    },
+    "problems": {
+      "zh": "遇到的问题",
+      "en": "Problems"
+    },
+    "nextTime": {
+      "zh": "下次怎么改",
+      "en": "Next time"
+    },
+    "close": {
+      "zh": "关闭",
+      "en": "Close"
+    },
+    "zoomHint": {
+      "zh": "双指缩放",
+      "en": "Pinch to zoom"
+    },
+    "lang": {
+      "zh": "EN",
+      "en": "中文"
+    },
+    "photoTodo": {
+      "zh": "照片待补位",
+      "en": "Photo TBD"
+    },
+    "skipToContent": {
+      "zh": "跳到内容",
+      "en": "Skip to content"
+    }
+  },
+  "cover": {
+    "titleA": "Valar",
+    "titleB": "Morghulis",
+    "sideA": "I’m growing",
+    "sideB": "strong",
+    "product": "Portfolio",
+    "program": "Information Program",
+    "mark": "vip"
+  }
+}

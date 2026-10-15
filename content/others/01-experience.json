@@ -1,0 +1,58 @@
+{
+  "id": "experience",
+  "folder": "others",
+  "order": 1,
+  "template": "timeline",
+  "status": "partial",
+  "title": {
+    "zh": "工作经历",
+    "en": "Work experience"
+  },
+  "subtitle": {
+    "zh": "（公司名待补位）· 市场部",
+    "en": "(Company TBD) · Marketing Dept."
+  },
+  "period": "2021.12 – 2025.3",
+  "steps": [
+    {
+      "title": {
+        "zh": "新媒体内容运营",
+        "en": "Social media content"
+      },
+      "text": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    },
+    {
+      "title": {
+        "zh": "艺术项目宣传执行",
+        "en": "Arts project publicity"
+      },
+      "text": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    },
+    {
+      "title": {
+        "zh": "大型活动执行",
+        "en": "Large-event execution"
+      },
+      "text": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    },
+    {
+      "title": {
+        "zh": "项目合作与事务协调",
+        "en": "Partnerships & coordination"
+      },
+      "text": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    }
+  ]
+}

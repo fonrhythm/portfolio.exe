@@ -1,0 +1,229 @@
+{
+  "id": "xiaohongshu",
+  "folder": "social",
+  "order": 3,
+  "template": "links",
+  "status": "todo",
+  "pages": [
+    {
+      "template": "links",
+      "status": "todo",
+      "title": {
+        "zh": "小红书代表笔记",
+        "en": "Xiaohongshu top notes"
+      },
+      "subtitle": {
+        "zh": "6 篇：行业洞察、长图文、内容转化各 2",
+        "en": "6 notes: 2 insight, 2 long-form, 2 conversion"
+      },
+      "sections": [
+        {
+          "heading": {
+            "zh": "行业洞察",
+            "en": "Industry insight"
+          },
+          "links": [
+            {
+              "url": "",
+              "platform": "xhs",
+              "label": {
+                "zh": "行业洞察 1",
+                "en": "Insight 1"
+              },
+              "summary": {
+                "zh": "待补位",
+                "en": "TBD"
+              }
+            },
+            {
+              "url": "",
+              "platform": "xhs",
+              "label": {
+                "zh": "行业洞察 2",
+                "en": "Insight 2"
+              },
+              "summary": {
+                "zh": "待补位",
+                "en": "TBD"
+              }
+            }
+          ]
+        },
+        {
+          "heading": {
+            "zh": "长图文",
+            "en": "Long-form carousel"
+          },
+          "links": [
+            {
+              "url": "",
+              "platform": "xhs",
+              "label": {
+                "zh": "长图文 1",
+                "en": "Long-form 1"
+              },
+              "summary": {
+                "zh": "待补位",
+                "en": "TBD"
+              }
+            },
+            {
+              "url": "",
+              "platform": "xhs",
+              "label": {
+                "zh": "长图文 2",
+                "en": "Long-form 2"
+              },
+              "summary": {
+                "zh": "待补位",
+                "en": "TBD"
+              }
+            }
+          ]
+        },
+        {
+          "heading": {
+            "zh": "内容转化",
+            "en": "Conversion"
+          },
+          "links": [
+            {
+              "url": "",
+              "platform": "xhs",
+              "label": {
+                "zh": "内容转化 1",
+                "en": "Conversion 1"
+              },
+              "summary": {
+                "zh": "待补位",
+                "en": "TBD"
+              }
+            },
+            {
+              "url": "",
+              "platform": "xhs",
+              "label": {
+                "zh": "内容转化 2",
+                "en": "Conversion 2"
+              },
+              "summary": {
+                "zh": "待补位",
+                "en": "TBD"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "template": "links",
+      "status": "todo",
+      "title": {
+        "zh": "小红书笔记文案",
+        "en": "Xiaohongshu copy"
+      },
+      "subtitle": {
+        "zh": "6 篇文案，对应上页笔记",
+        "en": "6 copy samples matching the notes"
+      },
+      "sections": [
+        {
+          "heading": {
+            "zh": "行业洞察",
+            "en": "Industry insight"
+          },
+          "links": [
+            {
+              "url": "",
+              "platform": "xhs",
+              "label": {
+                "zh": "文案 1",
+                "en": "Copy 1"
+              },
+              "summary": {
+                "zh": "待补位",
+                "en": "TBD"
+              }
+            },
+            {
+              "url": "",
+              "platform": "xhs",
+              "label": {
+                "zh": "文案 2",
+                "en": "Copy 2"
+              },
+              "summary": {
+                "zh": "待补位",
+                "en": "TBD"
+              }
+            }
+          ]
+        },
+        {
+          "heading": {
+            "zh": "长图文",
+            "en": "Long-form carousel"
+          },
+          "links": [
+            {
+              "url": "",
+              "platform": "xhs",
+              "label": {
+                "zh": "文案 3",
+                "en": "Copy 3"
+              },
+              "summary": {
+                "zh": "待补位",
+                "en": "TBD"
+              }
+            },
+            {
+              "url": "",
+              "platform": "xhs",
+              "label": {
+                "zh": "文案 4",
+                "en": "Copy 4"
+              },
+              "summary": {
+                "zh": "待补位",
+                "en": "TBD"
+              }
+            }
+          ]
+        },
+        {
+          "heading": {
+            "zh": "内容转化",
+            "en": "Conversion"
+          },
+          "links": [
+            {
+              "url": "",
+              "platform": "xhs",
+              "label": {
+                "zh": "文案 5",
+                "en": "Copy 5"
+              },
+              "summary": {
+                "zh": "待补位",
+                "en": "TBD"
+              }
+            },
+            {
+              "url": "",
+              "platform": "xhs",
+              "label": {
+                "zh": "文案 6",
+                "en": "Copy 6"
+              },
+              "summary": {
+                "zh": "待补位",
+                "en": "TBD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

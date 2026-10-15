@@ -1,0 +1,59 @@
+{
+  "id": "community",
+  "folder": "social",
+  "order": 4,
+  "template": "profile",
+  "status": "partial",
+  "title": {
+    "zh": "社群运营",
+    "en": "Community operations"
+  },
+  "subtitle": {
+    "zh": "5 个核心粉丝社群",
+    "en": "5 core fan groups"
+  },
+  "metrics": [
+    {
+      "value": "5",
+      "label": {
+        "zh": "核心粉丝社群",
+        "en": "Core groups"
+      }
+    },
+    {
+      "value": "2000+",
+      "label": {
+        "zh": "总人数",
+        "en": "Total members"
+      }
+    },
+    {
+      "value": "55%",
+      "label": {
+        "zh": "活跃度提升",
+        "en": "Activity increase"
+      },
+      "note": {
+        "zh": "口径待补位",
+        "en": "Definition TBD"
+      }
+    },
+    {
+      "value": "12%",
+      "label": {
+        "zh": "活动转化率",
+        "en": "Event conversion"
+      },
+      "note": {
+        "zh": "口径待补位",
+        "en": "Definition TBD"
+      }
+    }
+  ],
+  "bullets": [
+    {
+      "zh": "运营动作：待补位",
+      "en": "What I did: TBD"
+    }
+  ]
+}

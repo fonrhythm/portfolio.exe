@@ -1,0 +1,19 @@
+{
+  "id": "events-index",
+  "folder": "events",
+  "order": 1,
+  "template": "index",
+  "status": "partial",
+  "title": {
+    "zh": "活动索引",
+    "en": "Event index"
+  },
+  "subtitle": {
+    "zh": "按场次翻阅",
+    "en": "Browse by event"
+  },
+  "summary": {
+    "zh": "待补位",
+    "en": "TBD"
+  }
+}

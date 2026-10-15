@@ -1,0 +1,154 @@
+{
+  "id": "chob-calendar",
+  "folder": "projects",
+  "order": 1,
+  "template": "profile",
+  "status": "partial",
+  "pages": [
+    {
+      "template": "profile",
+      "status": "done",
+      "title": {
+        "zh": "Chob Calendar",
+        "en": "Chob Calendar"
+      },
+      "subtitle": {
+        "zh": "泰国娱乐活动信息整合网站",
+        "en": "Thai entertainment events aggregator"
+      },
+      "role": {
+        "zh": "独立策划与搭建",
+        "en": "Solo planner & builder"
+      },
+      "bullets": [
+        {
+          "zh": "独立策划并搭建泰国娱乐活动信息整合网站",
+          "en": "Planned and built the site on my own"
+        },
+        {
+          "zh": "聚合泰国艺人、音乐活动和演出资讯",
+          "en": "Aggregates Thai artists, music events and shows"
+        },
+        {
+          "zh": "负责内容整理、信息更新、用户需求分析和日常运营",
+          "en": "Handled content curation, updates, user-need analysis and daily operations"
+        }
+      ]
+    },
+    {
+      "template": "stats",
+      "status": "partial",
+      "title": {
+        "zh": "Chob Calendar 数据",
+        "en": "Chob Calendar data"
+      },
+      "subtitle": {
+        "zh": "2026.06 起统计",
+        "en": "Counted since 2026.06"
+      },
+      "sections": [
+        {
+          "heading": {
+            "zh": "访问与内容",
+            "en": "Traffic & content"
+          },
+          "metrics": [
+            {
+              "value": "~200",
+              "label": {
+                "zh": "日均访问",
+                "en": "Avg. daily visits"
+              },
+              "note": {
+                "zh": "2026.06 起日均约 200 访问",
+                "en": "About 200 visits per day since 2026.06"
+              }
+            },
+            {
+              "value": "待补位",
+              "label": {
+                "zh": "累计访问",
+                "en": "Total visits"
+              }
+            },
+            {
+              "value": "待补位",
+              "label": {
+                "zh": "收录活动数",
+                "en": "Events listed"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "template": "photowall",
+      "status": "todo",
+      "title": {
+        "zh": "网站截图与链接",
+        "en": "Screenshots & link"
+      },
+      "images": [
+        {
+          "src": "projects/chob-calendar/01.jpg",
+          "alt": {
+            "zh": "Chob Calendar 截图（1）",
+            "en": "Chob Calendar screenshot (1)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "projects/chob-calendar/02.jpg",
+          "alt": {
+            "zh": "Chob Calendar 截图（2）",
+            "en": "Chob Calendar screenshot (2)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "projects/chob-calendar/03.jpg",
+          "alt": {
+            "zh": "Chob Calendar 截图（3）",
+            "en": "Chob Calendar screenshot (3)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        },
+        {
+          "src": "projects/chob-calendar/04.jpg",
+          "alt": {
+            "zh": "Chob Calendar 截图（4）",
+            "en": "Chob Calendar screenshot (4)"
+          },
+          "caption": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        }
+      ],
+      "links": [
+        {
+          "url": "",
+          "platform": "web",
+          "label": {
+            "zh": "访问网站",
+            "en": "Visit the site"
+          },
+          "summary": {
+            "zh": "待补位",
+            "en": "TBD"
+          }
+        }
+      ]
+    }
+  ]
+}

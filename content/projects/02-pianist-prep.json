@@ -1,0 +1,57 @@
+{
+  "id": "pianist-prep",
+  "folder": "projects",
+  "order": 2,
+  "template": "timeline",
+  "status": "partial",
+  "title": {
+    "zh": "签约钢琴家项目前期执行",
+    "en": "Signed pianist: pre-event execution"
+  },
+  "subtitle": {
+    "zh": "从日程到演出 PPT",
+    "en": "From schedule to show deck"
+  },
+  "steps": [
+    {
+      "title": {
+        "zh": "日程确认",
+        "en": "Schedule"
+      },
+      "text": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    },
+    {
+      "title": {
+        "zh": "机酒安排",
+        "en": "Travel & hotel"
+      },
+      "text": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    },
+    {
+      "title": {
+        "zh": "宣传资料准备",
+        "en": "Promo materials"
+      },
+      "text": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    },
+    {
+      "title": {
+        "zh": "演出 PPT",
+        "en": "Show deck"
+      },
+      "text": {
+        "zh": "待补位",
+        "en": "TBD"
+      }
+    }
+  ]
+}
